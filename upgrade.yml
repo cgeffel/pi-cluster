@@ -1,6 +1,6 @@
 ---
 - name: Upgrade everything on the cluster.
-  hosts: cluster
+  hosts: all
   become: true
 
   tasks:
