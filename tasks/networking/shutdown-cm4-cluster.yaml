@@ -1,7 +1,7 @@
 ---
 - name: Unconditionally shut down the machine with all defaults
   community.general.shutdown:
-  hosts: CM4_Cluster
+  hosts: all
 
 - name: Delay shutting down the remote node
   community.general.shutdown:
